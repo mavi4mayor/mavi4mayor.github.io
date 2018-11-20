@@ -163,52 +163,6 @@ span{
             animation: fadein 4s;
 }
 
-.tracklist {
-    display: flex;
-    -ms-flex:50%;
-    flex: 50%;
-    margin: 5em 0 0 0;
-    background-image: url('../img/mavi2.png');
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat;
-    background-size: contain;
-/*    background: #272513;
-*/}
-.tracklist span {
-    font-family: 'heebo', sans-serif;
-    font-weight: 900;
-    font-size: 2em;
-    letter-spacing:3px;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 1.2em;
-    margin-top: 1em;
-    text-align: left;
-/*    color:#fea3a2*/
-}
-/*.view{
-    -ms-flex:50%;
-    flex: 50%;
-    height: 100%;
-}
-.view li {
-    font-family: 'GZA', sans-serif;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    color: #fea3a2;
-    text-align: left;
-    font-size: 1.4em;
-    line-height: 3em;
-    margin-top: 1;
-}
-.right {
-    justify-content: flex-start !important;
-    margin-left: 1em;
-    margin-top: .53em;
-
-}*/
-
 .view {
     display: flex;
     justify-content: center;
@@ -371,18 +325,27 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
     and (max-device-width : 667px) 
     and (orientation : portrait) {  
 
-    header img {
-        margin: 1em;
+    header{
+        margin: 0;
     }
    
     header h1 {
-        text-align: left;
+        text-align: center;
         font-size: 4em;
         margin: .5em;
         padding: 0;
     }
 
-
+    footer {
+        margin: 0 2em 0 2em;
+    }
+    .background-text {
+        display: none !important;
+    }
+    .view li {
+      font-size: 18px;
+      width: 100%;
+    }
 }
 @media screen and (max-width: 55em) {
     .content__text {
