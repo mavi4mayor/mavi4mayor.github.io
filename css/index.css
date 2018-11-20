@@ -35,7 +35,7 @@ html, body {
   background: #ffb7b7; /* Gecko Browsers */
 }
 a {
-    color: #f9d35f;
+    color: #0f0e1b;
     text-decoration: none;
 }
 a:hover,
@@ -49,6 +49,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
+    margin-bottom: 3em;
 }
 footer img{
     display: flex;
@@ -185,7 +186,7 @@ span{
     text-align: left;
 /*    color:#fea3a2*/
 }
-.view{
+/*.view{
     -ms-flex:50%;
     flex: 50%;
     height: 100%;
@@ -206,9 +207,53 @@ span{
     margin-left: 1em;
     margin-top: .53em;
 
+}*/
+
+.view {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    background-image: url('../img/mavi2.png');
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    width: 70vw;
+
+}
+.view li {
+    font-family: 'GZA', sans-serif;
+    width: 56%;
+    justify-content: center;
+    list-style: none;
+    align-self: center;
+    color: #fea3a2;
+    font-size: 1.4em;
+    line-height: 3em;
+}
+.bottom-links {
+    position:relative;
+    text-align:center;
+    font-size:.8em;
+    background: #ffb9b4;
+    padding: 23px 0;
+    margin-top: 3em;
+  }
+.bottom-links li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 audio {
   opacity: .3;
+  margin-top: 5px;
+  float: right !important;
+  display:flex;
+  justify-content: flex-start;
+
+
+
 }
 audio::-webkit-media-controls-panel{
   background: #ff9294ba;
