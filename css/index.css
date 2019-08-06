@@ -350,9 +350,9 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
     footer {
         margin: 0 2em 0 2em;
     }
-    .background-text {
+    /* .background-text {
         display: none !important;
-    }
+    } */
     .view li {
       font-size: 18px;
       width: 100%;
