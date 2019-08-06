@@ -179,7 +179,7 @@ span{
     background-repeat: no-repeat;
     background-size: contain;
     margin: auto;
-    /* width: 70vw; */
+    width: 70vw;
 
 }
 .view li {
@@ -369,3 +369,21 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
         font-size: 1rem;
     }
 }
+/* 
+@media (min-width: 544px) {
+    .type-big {
+        font-size:3vw
+    }
+    .type-small {
+        font-size:3vw
+    }
+}
+
+@media (min-width: 1012px) {
+    .type-big {
+        font-size:40px
+    }
+    .type-small {
+        font-size:25px
+    }
+} */
