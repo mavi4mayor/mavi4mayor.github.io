@@ -179,7 +179,7 @@ span{
     background-repeat: no-repeat;
     background-size: contain;
     margin: auto;
-    width: 70vw;
+    /* width: 70vw; */
 
 }
 .view li {
