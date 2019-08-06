@@ -23,10 +23,11 @@ b {
 }
 html, body {
     font-family: Calibri, Arial, sans-serif;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     color: #2a5875;
     background-color: #2d0000;
     overflow-x: hidden;
+    /* display: flex; */
 }
 ::selection {
   background: #ffb7b7; /* WebKit/Blink Browsers */
@@ -103,6 +104,8 @@ span{
     left: 20px;
     /*color: #874546;*/
     color: #87454682;
+    font-family: 'B', sans-serif;
+
 }
 .location-1 {
     top: 50vh;
@@ -169,7 +172,7 @@ span{
     justify-content: center;
     flex-direction: column;
     align-content: center;
-    background-image: url('../img/mavi2.png');
+    /* background-image: url('../img/mavi2.png'); */
     background-position: left; /* Center the image */
     background-repeat: no-repeat;
     background-size: contain;
@@ -333,6 +336,8 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
 
     header{
         margin: 0;
+        display: flex;
+        justify-content: center;
     }
    
     header h1 {
