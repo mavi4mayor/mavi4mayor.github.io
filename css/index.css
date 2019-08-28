@@ -214,13 +214,9 @@ audio {
   float: right !important;
   display:flex;
   justify-content: flex-start;
-
-
-
 }
 audio::-webkit-media-controls-panel{
   background: #ff9294ba;
-
 }
 
 audio::-webkit-media-controls-mute-button{
