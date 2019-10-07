@@ -17,6 +17,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 *::before {
     box-sizing: border-box;
 }
+a {
+  text-decoration-color: #c12c00;
+}
 html {
   padding:0;
   margin: 0;
@@ -37,13 +40,6 @@ body {
 header {
     font-family: 'B', sans-serif;
     text-align: center;
-}
-header h1 {
-    font-size: 146px;
-    color: transparent;
-    -webkit-text-stroke: 3px #9ea5a8;
-    /* margin: auto; */
-    margin: 0px;
 }
 header h2 {
     color: transparent;
@@ -141,4 +137,22 @@ audio {
       justify-content: center;
       flex-direction: column;
     }
+}
+.break {
+    display: flex;
+    justify-content: center;
+    color: #943b0a;
+    font-family: 'Ramaraja', sans-serif;
+    font-size: 18px;
+    line-height: 15px;
+    text-align: center;
+
+}
+.title{
+    font-family: 'B', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    color: transparent;
+    -webkit-text-stroke: 1px  #943b0a;
+
 }
